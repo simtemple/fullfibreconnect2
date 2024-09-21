@@ -1,14 +1,22 @@
 {
-    "name": "digitalocean-apps/sample-php",
-    "description": "Sample PHP application for App Platform",
+    "name": "root/html",
+     "description": "PHP application for App Platform",
     "type": "project",
+    "minimum-stability": "dev",
     "require": {
-        "alrik11es/cowsayphp": "^1.2"
+        "fullfibreconnect/broadband-availability-php": "dev-master"
     },
-    "authors": [
+     "authors": [
         {
-            "name": "Kamal Nasser",
-            "email": "kamal@digitalocean.com"
+            "name": "Simon Ndulagwa",
+            "email": "Info@fullfibreconnect.com"
         }
     ]
 }
+
+
+
+
+
+
+
