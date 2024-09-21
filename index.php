@@ -5,7 +5,7 @@
   <title>Broadband Availability Example</title>
   <?php
     require __DIR__ . '/vendor/autoload.php';
-    $ba = new \fullfibreconnect\BroadbandAvailabilityPhp\BroadbandAvailability("/api.php");
+    $ba = new \fullfibreconnect\BroadbandAvailabilityPhp\BroadbandAvailability("api.php");
     $ba->render_scripts();
     $ba->render_styles();
   ?>
